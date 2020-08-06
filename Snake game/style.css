@@ -1,0 +1,115 @@
+body{
+	background: #000000 url(BG.jpg) no-repeat top center;
+	font-family:arial;
+}
+
+a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+canvas{
+	background:#000000;
+	border:3px white solid;
+	margin-top:2px;
+}
+
+.container{
+	margin:30px auto 0 auto;
+	width:600px;
+	oveflow:auto;
+	position:relative;
+}
+
+#heading{
+	text-align: center;
+	background-color:black;
+	color:#22ff05;
+	font-size:75px;
+	font-family: 'WaltographRegular';
+  font-weight: normal;
+  font-style: normal;
+	border: 3px white solid;
+
+}
+#para{
+	font-family: 'MusicalRegular';
+  font-weight: bold;
+  font-style: normal;
+}
+.heading:before{
+  background: none;
+  border: 4px double #22ff05  ;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom:601px;
+  pointer-events: none;
+	margin-top: 0;
+}
+
+
+#stats{
+	width:590px;
+	background:#333333;
+	padding:5px;
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffff;
+	margin-bottom:5px;
+	overflow:auto;
+  border: 3px white solid;
+
+}
+
+#score,#high_score{
+	width:25%;
+	height:50px;
+	padding-top:20px;
+	float:left;
+	margin-right:5px;
+	overflow:auto;
+	background:#000000;
+	text-align:center;
+	font-family: 'GothicaBold';
+  font-weight: bold;
+  font-style: normal;
+}
+
+#reset_score{
+	font-family: 'GothicaBold';
+  font-weight: bold;
+  font-style: normal;
+	padding-top:20px;
+	float:right;
+	width:25%;
+	height:50px;
+	padding-bottom:20px;
+	margin-right:5px;
+	text-align:center;
+}
+
+#overlay{
+	display:none;
+	color:#ffffff;
+	font-size:25px;
+	text-align:center;
+	position:absolute;
+	top:350px;
+	left:150px;
+
+}
+
+#overlay a{
+	display:block;
+	margin-top:10px;
+	padding:10px;
+	background:#666666;
+}
+
+#overlay a:hover{
+	background:#333333;
+}
